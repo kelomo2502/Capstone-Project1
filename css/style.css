@@ -511,6 +511,7 @@ header .lg-navbar .my-logo {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    font-size: 20px;
   }
 
   .program .whole-program {
