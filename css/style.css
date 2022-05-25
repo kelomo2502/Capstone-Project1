@@ -252,6 +252,7 @@ header .lg-navbar .my-logo {
     background-image: url(../images/main_big.png);
   }
 
+
   .about {
     padding: 0 10%;
     background-image: url(../images/main-bg.png);
@@ -519,7 +520,6 @@ header .lg-navbar .my-logo {
   }
 }
 
-/* transition */
 .program .frames div {
   transition: border 1s ease-in-out;
 }
