@@ -3,13 +3,13 @@
 Final Project Using HTML,CSS and JAVASCRIPT (Microverse Module 1 Curriculum)
 
 <p align="center">
-  <img src="./images/screenshot/mobile.png"/>
+  <img src="./images/screenshot/mobile-version.png"/>
 </p>
 
 <hr>
 
 <p align="center">
-  <img src="./images/screenshot/desktop.png"/>
+  <img src="./images/screenshot/desktop-version.png"/>
 </p>
 
 
