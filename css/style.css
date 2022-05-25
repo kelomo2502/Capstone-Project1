@@ -50,7 +50,7 @@ body {
   background-color: var(--primary);
 }
 
-.color-white-text {
+.all-white {
   color: var(--color-white);
 }
 
@@ -62,7 +62,7 @@ body {
   color: var(--dark-text);
 }
 
-.bg-dark {
+.dark-background {
   background-color: var(--secondary);
 }
 
@@ -104,6 +104,7 @@ a:hover {
 }
 
 header .lg-navbar .niesv-resize {
+  
   display: inherit;
   height: 3rem;
 }
@@ -130,7 +131,7 @@ header .lg-navbar .niesv-resize {
 
   header .lg-navbar .lg-nav-link,
   header .small-nav,
-  header .fbt,
+  header .social,
   header .small-bar-actions {
     display: flex;
     gap: 2rem;
