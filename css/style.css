@@ -21,7 +21,7 @@ body {
 }
 
 @font-face {
-  font-family: 'cocogoose',sans-serif;
+  font-family: "cocogoose", sans-serif;
   src: url(../fonts/Cocogoose.otf);
   font-weight: bold;
 }
@@ -104,12 +104,10 @@ a:hover {
 }
 
 header .lg-navbar .niesv-resize {
-  
   display: inherit;
   height: 3rem;
 }
 
-/* hiding for mobile */
 @media screen and (max-width: 767px) {
   header .lg-navbar,
   header .small-nav,

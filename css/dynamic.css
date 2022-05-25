@@ -14,7 +14,7 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 
 button {
@@ -35,7 +35,7 @@ button:active {
 ul,
 li,
 a {
-	list-style: none;
+  list-style: none;
   text-decoration: none;
   color: inherit;
 }

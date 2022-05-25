@@ -40,49 +40,54 @@ itemLists.forEach((item) => {
 });
 
 const featuredSpeakers = [
-
   {
     image: './images/speakers/speaker1.jpeg',
     name: 'ESV (Chief) Emmanuel Okas Wike',
-    speakerInfo: 'Consultant Surveyor for Asset management Corporation of Nigeria ',
-    description: 'Lead Consultancy service for Valuation of NNPC Fixed Assets (Zonal office complex, Port Harcourt), Nigeria.',
+    speakerInfo:
+      'Consultant Surveyor for Asset management Corporation of Nigeria ',
+    description:
+      'Lead Consultancy service for Valuation of NNPC Fixed Assets (Zonal office complex, Port Harcourt), Nigeria.',
   },
 
   {
     image: './images/speakers/speaker2.jpeg',
     name: 'ESV Emma Kadozo Msc, IFMA',
     speakerInfo: 'Managing Partner, Kadozo and Associates',
-    description: 'Expert in facilities and property management with 20 years of professional experience',
+    description:
+      'Expert in facilities and property management with 20 years of professional experience',
   },
 
   {
     image: './images/speakers/speaker3.jpeg',
     name: 'Oluwarotimi Odunayo Akeredolu, SAN',
     speakerInfo: 'The Executive Governor of Ondo State, Nigeria',
-    description: 'Oluwarotimi Odunayo Akeredolu, SAN is a Nigerian politician and lawyer who is currently the Governor of Ondo State, in office since February 24, 2017.',
+    description:
+      'Oluwarotimi Odunayo Akeredolu, SAN is a Nigerian politician and lawyer who is currently the Governor of Ondo State, in office since February 24, 2017.',
   },
 
   {
     image: './images/speakers/speaker4.jpeg',
     name: 'ESV M.I Okoro FNIVS',
     speakerInfo: 'Managing Partner of M.I Okoro and Associates',
-    description: 'fellow of the Nigerian Institution of Estate Surveyors and Valuers and lead consultant with AMCON.',
+    description:
+      'fellow of the Nigerian Institution of Estate Surveyors and Valuers and lead consultant with AMCON.',
   },
 
   {
     image: './images/speakers/speaker5.jpeg',
     name: 'Dr. Goodluck Ebele Jonathan GCFR, GCON',
     speakerInfo: 'President of The Federal Republic of Nigeria 2010-2015',
-    description: 'Dr. Goodluck Ebele Jonathan GCFR, GCON is a Nigerian politician who served as the President of Nigeria from 2010 to 2015.',
+    description:
+      'Dr. Goodluck Ebele Jonathan GCFR, GCON is a Nigerian politician who served as the President of Nigeria from 2010 to 2015.',
   },
 
   {
     image: './images/speakers/speaker6.jpeg',
     name: 'Bode  Adediji Bsc, Msc, RSV, FNIVS, PPNIVS',
     speakerInfo: 'Executive  Chairman  of  Bode  Adediji  Partnership',
-    description: 'Mr. Bode Adediji is the Group Executive  Chairman  of  Bode  Adediji  Partnership,  Kontinental  Developers Nigeria  Limited  and  House  of  Estate  International  Limited.',
-  }
-
+    description:
+      'Mr. Bode Adediji is the Group Executive  Chairman  of  Bode  Adediji  Partnership,  Kontinental  Developers Nigeria  Limited  and  House  of  Estate  International  Limited.',
+  },
 ];
 
 const speakerProfile = document.querySelector('.fs-container-grid');
@@ -105,4 +110,6 @@ function createSpeaker(item) {
           </li> `;
 }
 
-speakerProfile.innerHTML = featuredSpeakers.map((item) => createSpeaker(item)).join('');
+speakerProfile.innerHTML = featuredSpeakers
+  .map((item) => createSpeaker(item))
+  .join('');
