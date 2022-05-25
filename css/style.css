@@ -281,6 +281,7 @@ header .lg-navbar .my-logo {
     max-width: 94%;
     text-align: left;
     line-height: 3.5rem;
+    font-weight: 900;
   }
 
   @media screen and (min-width: 992px) {
