@@ -98,14 +98,14 @@ a:hover {
   color: var(--primary);
 }
 
-.namm-logoo {
+.niesv-resize {
   height: 3rem;
   filter: grayscale(10%) contrast(75%);
 }
 
 header .lg-navbar .niesv-resize {
   display: inherit;
-  height: 5rem;
+  height: 3rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -139,7 +139,7 @@ header .lg-navbar .niesv-resize {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 3rem;
+    min-height: 4.5rem;
     padding: 0 10%;
   }
 
