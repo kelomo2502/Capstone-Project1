@@ -22,7 +22,7 @@ This project is meant to test student ability's on being able to put together al
 - JAVASCRIPT
 
 
-Here's a [video ]() of me giving a few description of the project.
+Here's a [video ](https://www.loom.com/share/d69acbc4d7644f6b8a8a736c0d48b0d6) of me giving a few description of the project.
 
 ## Live Demo
 
